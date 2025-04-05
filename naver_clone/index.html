@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ko" class="fzoom" data-dark="false">
+<head>
+    <meta charset="utf-8">
+    <meta name="Referrer" content="origin">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1190">
+    <title>NAVER</title>
+    <meta name="apple-mobile-web-app-title" content="NAVER">
+    <meta name="robots" content="index,nofollow">
+    <meta name="description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요">
+    <meta property="og:title" content="네이버">
+    <meta property="og:url" content="https://www.naver.com/">
+    <meta property="og:image" content="images/naver_logo.png">
+    <meta property="og:description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:url" content="https://www.naver.com/">
+    <meta name="twitter:image" content="images/naver_logo.png">
+    <meta name="twitter:description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <div id="u_skip">
+        <a href="#header">메뉴 바로가기</a>
+        <a href="#container">본문 바로가기</a>
+    </div>
+
+    <!-- Main Wrapper -->
+    <div id="wrap">
+        <!-- Header -->
+        <div id="header">
+            <div class="header_inner" id="topSearchWrap">
+                <!-- Top Aside Area -->
+                <div class="top_aside">
+                    <div id="topAsideArea" class="menu_area">
+                        <button id="topAsideButton" type="button" class="btn_menu" aria-haspopup="menu" aria-expanded="false">
+                            <span class="blind">확장 영역</span>
+                        </button>
+                    </div>
+                    <div id="topPayArea" class="pay_area">
+                        <a href="https://order.pay.naver.com/home" class="link_pay" target="_blank">
+                            <span class="blind">페이 바로가기</span>
+                        </a>
+                    </div>
+                    <div class="right_menu">
+                        <div id="topTalkArea" class="talk_area">
+                            <button type="button" class="btn_talk" aria-haspopup="menu" aria-expanded="false">
+                                <span class="blind">톡</span>
+                            </button>
+                        </div>
+                        <div id="topNotiArea" class="notify_area">
+                            <button type="button" class="btn_notify" aria-haspopup="menu" aria-expanded="false">
+                                <span class="blind">알림</span>
+                            </button>
+                        </div>
+                        <div id="topShoppingArea" class="shopping_area">
+                            <a href="https://shopping.naver.com/cart" class="link_shopping" target="_blank">
+                                <span class="blind">장바구니</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Area -->
+                <div class="search_area">
+                    <div class="search_group">
+                        <div class="search_group_inner">
+                            <div class="search_input_box">
+                                <form id="sform" name="search" role="search" action="https://search.naver.com/search.naver" method="get">
+                                    <fieldset>
+                                        <legend class="blind">검색</legend>
+                                        <input type="hidden" name="where" value="nexearch">
+                                        <input type="hidden" id="sm" name="sm" value="top_hty">
+                                        <input type="hidden" id="fbm" name="fbm" value="0">
+                                        <input type="hidden" id="ie" name="ie" value="utf8">
+                                        <div class="search_box">
+                                            <h1 id="special-input-logo" class="search_logo">
+                                                <a href="/" class="link_naver">
+                                                    <img src="images/naver_logo_large.png" alt="NAVER" width="58" height="58">
+                                                </a>
+                                            </h1>
+                                            <input type="text" id="query" name="query" maxlength="255" class="input_search" autocomplete="off" title="검색어 입력" placeholder="검색어를 입력해 주세요.">
+                                            <button type="button" class="btn_keyboard" id="ke_kbd_btn">입력도구</button>
+                                            <button type="button" class="btn_arrow" id="nautocomplete">자동완성/최근검색어펼치기</button>
+                                            <button type="submit" class="btn_search">
+                                                <span class="ico_btn_search_svg">
+                                                    <svg id="search-btn" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" style="fill: #03c75a">
+                                                        <path d="M22.13.5c11.378 0 20.632 9.256 20.632 20.63 0 4.699-1.566 9.155-4.439 12.782l10.164 10.165a2.41 2.41 0 0 1-1.706 4.115 2.412 2.412 0 0 1-1.706-.705L33.31 35.719a2.41 2.41 0 0 1 0-3.41 15.71 15.71 0 0 0 4.628-11.178c0-8.718-7.09-15.808-15.807-15.808-8.718 0-15.808 7.09-15.808 15.808 0 7.15 4.817 13.43 11.714 15.273a2.41 2.41 0 0 1 1.705 2.954 2.41 2.41 0 0 1-2.95 1.705C7.788 38.658 1.5 30.46 1.5 21.131 1.5 9.756 10.756.5 22.13.5zm4.716 34.746a3.483 3.483 0 1 1 0 6.966 3.483 3.483 0 0 1 0-6.966z"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="blind">검색</span>
+                                            </button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service Shortcuts -->
+                    <div id="shortcutArea" class="shortcut_area type_recommend" role="navigation" aria-label="주요 서비스">
+                        <ul class="shortcut_list">
+                            <li class="shortcut_item"><a href="https://mail.naver.com" class="link_service" target="_blank"><span class="service_icon type_mail"></span><span class="service_name">메일</span></a></li>
+                            <li class="shortcut_item"><a href="https://cafe.naver.com" class="link_service" target="_blank"><span class="service_icon type_cafe"></span><span class="service_name">카페</span></a></li>
+                            <li class="shortcut_item"><a href="https://blog.naver.com" class="link_service" target="_blank"><span class="service_icon type_blog"></span><span class="service_name">블로그</span></a></li>
+                            <li class="shortcut_item"><a href="https://shopping.naver.com/ns/home" class="link_service" target="_blank"><span class="service_icon type_shopping"></span><span class="service_name">쇼핑</span></a></li>
+                            <li class="shortcut_item"><a href="https://news.naver.com/" class="link_service" target="_blank"><span class="service_icon type_news"></span><span class="service_name">뉴스</span></a></li>
+                            <li class="shortcut_item"><a href="https://finance.naver.com/" class="link_service" target="_blank"><span class="service_icon type_stock"></span><span class="service_name">증권</span></a></li>
+                            <li class="shortcut_item"><a href="https://land.naver.com/" class="link_service" target="_blank"><span class="service_icon type_real"></span><span class="service_name">부동산</span></a></li>
+                            <li class="shortcut_item"><a href="https://map.naver.com" class="link_service" target="_blank"><span class="service_icon type_map"></span><span class="service_name">지도</span></a></li>
+                            <li class="shortcut_item"><a href="https://comic.naver.com" class="link_service" target="_blank"><span class="service_icon type_webtoon"></span><span class="service_name">웹툰</span></a></li>
+                            <li class="shortcut_item"><a href="https://novel.naver.com/" class="link_service" target="_blank"><span class="service_icon type_novel"></span><span class="service_name">웹소설</span></a></li>
+                            <li class="shortcut_item"><a href="#" class="link_service" role="button"><span class="service_icon type_more"></span><span class="blind">바로가기 펼침</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Container -->
+        <div id="container">
+            <div id="root" class="container_root">
+                <!-- Left Column -->
+                <div class="column_left">
+                    <!-- News Stand -->
+                    <div id="newsstand" class="content_section">
+                        <div class="content_header">
+                            <div class="header_tab">
+                                <a href="#" class="tab_text active">뉴스스탠드</a>
+                                <a href="#" class="tab_text">언론사편집</a>
+                                <a href="#" class="tab">엔터</a>
+                                <a href="#" class="tab">스포츠LIVE</a>
+                                <a href="#" class="tab">경제</a>
+                                <a href="#" class="tab">쇼핑투데이</a>
+                            </div>
+                        </div>
+                        <div class="content_header_sub">
+                            <a href="#" class="btn_more">전체언론사</a>
+                            <a href="https://news.naver.com/main/list.naver?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y" class="news_media">연합뉴스</a>
+                            <div class="news_box">
+                                <a href="#" class="news_item">국민의힘 내부 "분열은 자멸""힘 모으자"</a>
+                                <a href="#" class="news_item">민주 "대선 전략, 확실한 정책 중심으로"</a>
+                            </div>
+                            <div class="utils">
+                                <a href="https://newsstand.naver.com/" class="link_home sub">뉴스스탠드</a>
+                                <a href="https://news.naver.com/" class="link_home">뉴스홈</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Media Subscription -->
+                        <div class="media_subscription">
+                            <div class="media_grid">
+                                <!-- Media items - 24 total in 4 rows of 6 -->
+                                <a href="#" class="media_item"><img src="images/media1.png" alt="언론사1"></a>
+                                <a href="#" class="media_item"><img src="images/media2.png" alt="언론사2"></a>
+                                <a href="#" class="media_item"><img src="images/media3.png" alt="언론사3"></a>
+                                <a href="#" class="media_item"><img src="images/media4.png" alt="언론사4"></a>
+                                <a href="#" class="media_item"><img src="images/media5.png" alt="언론사5"></a>
+                                <a href="#" class="media_item"><img src="images/media6.png" alt="언론사6"></a>
+                                
+                                <a href="#" class="media_item"><img src="images/media7.png" alt="언론사7"></a>
+                                <a href="#" class="media_item"><img src="images/media8.png" alt="언론사8"></a>
+                                <a href="#" class="media_item"><img src="images/media9.png" alt="언론사9"></a>
+                                <a href="#" class="media_item"><img src="images/media10.png" alt="언론사10"></a>
+                                <a href="#" class="media_item"><img src="images/media11.png" alt="언론사11"></a>
+                                <a href="#" class="media_item"><img src="images/media12.png" alt="언론사12"></a>
+                                
+                                <a href="#" class="media_item"><img src="images/media13.png" alt="언론사13"></a>
+                                <a href="#" class="media_item"><img src="images/media14.png" alt="언론사14"></a>
+                                <a href="#" class="media_item"><img src="images/media15.png" alt="언론사15"></a>
+                                <a href="#" class="media_item"><img src="images/media16.png" alt="언론사16"></a>
+                                <a href="#" class="media_item"><img src="images/media17.png" alt="언론사17"></a>
+                                <a href="#" class="media_item"><img src="images/media18.png" alt="언론사18"></a>
+                                
+                                <a href="#" class="media_item"><img src="images/media19.png" alt="언론사19"></a>
+                                <a href="#" class="media_item"><img src="images/media20.png" alt="언론사20"></a>
+                                <a href="#" class="media_item"><img src="images/media21.png" alt="언론사21"></a>
+                                <a href="#" class="media_item"><img src="images/media22.png" alt="언론사22"></a>
+                                <a href="#" class="media_item"><img src="images/media23.png" alt="언론사23"></a>
+                                <a href="#" class="media_item"><img src="images/media24.png" alt="언론사24"></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Content Paging -->
+                        <div class="content_paging">
+                            <button type="button" class="btn_prev">이전 페이지</button>
+                            <div class="page_indicator">
+                                <span class="current">1</span>
+                                <span class="total">/4</span>
+                            </div>
+                            <button type="button" class="btn_next">다음 페이지</button>
+                            
+                            <div class="view_type">
+                                <button type="button" class="btn_view_list">리스트형</button>
+                                <button type="button" class="btn_view_thumb active">썸네일형</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Other content sections would go here -->
+                </div>
+                
+                <!-- Right Column -->
+                <div class="column_right">
+                    <!-- Login Box -->
+                    <div id="account" class="section_login">
+                        <div class="login_wrapper">
+                            <div class="login_msg">네이버를 더 안전하고 편리하게 이용하세요</div>
+                            <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https://www.naver.com/" class="link_login" id="log.login">
+                                <i class="icon_naver"><span class="blind">네이버</span></i>로그인
+                            </a>
+                            <div class="login_links">
+                                <a href="https://nid.naver.com/user2/api/route?m=routeIdInquiry" class="link_more" id="log.searchID">아이디 찾기</a>
+                                <a href="https://nid.naver.com/user2/api/route?m=routePwInquiry" class="link_more" id="log.searchPass">비밀번호 찾기</a>
+                                <a href="https://nid.naver.com/nidregister.form?url=https%3A%2F%2Fwww.naver.com" class="link_more" id="log.registration">회원가입</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Weather Widget -->
+                    <div class="weather_widget">
+                        <div class="weather_content">
+                            <div class="weather_icon">
+                                <img src="images/weather_icon.png" alt="날씨">
+                            </div>
+                            <div class="weather_info">
+                                <span class="current_temp">16°</span>
+                                <div class="location_info">
+                                    <span class="location">서울</span>
+                                    <span class="temp_range">13° / 19°</span>
+                                </div>
+                            </div>
+                            <a href="https://weather.naver.com/" class="weather_more">날씨</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right content area -->
+                    <div id="right-content-area">
+                        <div class="right_top">
+                            <div class="content_area">
+                                <!-- Banner box -->
+                                <div class="banner_box">
+                                    <div class="banner_rolling">
+                                        <div class="rolling_panel">
+                                            <a href="#" class="link_banner">
+                                                <img src="images/banner1.png" alt="배너 이미지 1">
+                                            </a>
+                                            <a href="#" class="link_banner">
+                                                <img src="images/banner2_backup.png" alt="배너 이미지 2">
+                                            </a>
+                                            <a href="#" class="link_banner">
+                                                <img src="images/ad_banner_backup.jpg" alt="광고 배너">
+                                            </a>
+                                        </div>
+                                        <div class="rolling_navi">
+                                            <button type="button" class="navi_item" aria-label="첫번째 배너">1</button>
+                                            <button type="button" class="navi_item" aria-label="두번째 배너">2</button>
+                                            <button type="button" class="navi_item" aria-label="세번째 배너">3</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div id="footer">
+            <div class="footer_inner">
+                <div class="footer_top">
+                    <div class="footer_column">
+                        <h3 class="title">공지사항</h3>
+                        <ul class="list">
+                            <li><a href="#">네이버 페이 개인정보 처리방침 변경 안내</a></li>
+                            <li><a href="#">네이버 서비스 이용약관 개정 안내</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <h3 class="title">Partners</h3>
+                        <ul class="list">
+                            <li><a href="#">웨일 브라우저</a></li>
+                            <li><a href="#">네이버 클라우드</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <h3 class="title">Developers</h3>
+                        <ul class="list">
+                            <li><a href="#">네이버 개발자 센터</a></li>
+                            <li><a href="#">오픈 API</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <p class="footer_copyright">© NAVER Corp.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
